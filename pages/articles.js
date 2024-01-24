@@ -27,8 +27,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
-      tagline: 'Stories. Updates. Guides.',
+      title: 'Articles // Dylan Reid',
+      tagline: 'Reflections. Thoughts. Guides.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
       secondaryColor: 'pink',
@@ -82,8 +82,8 @@ function Articles(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/articles" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://dylanreid.me/articles" property="og:url" />
+        <meta content={`https://dylanreid.me${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

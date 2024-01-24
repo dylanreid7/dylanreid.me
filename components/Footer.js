@@ -10,23 +10,18 @@ export default function Footer() {
     },
     {
       title: 'Twitter',
-      url: 'https://twitter.com/zenorocha',
+      url: 'https://twitter.com/DylanReidTweets',
       icon: 'ri-twitter-line',
     },
     {
       title: 'GitHub',
-      url: 'https://github.com/zenorocha',
+      url: 'https://github.com/dylanreid7',
       icon: 'ri-github-line',
     },
     {
       title: 'linkedin',
-      url: 'https://linkedin.com/in/zenorocha',
+      url: 'https://linkedin.com/in/dylan-reid',
       icon: 'ri-linkedin-line',
-    },
-    {
-      title: 'Instagram',
-      url: 'https://instagram.com/zenorocha',
-      icon: 'ri-instagram-line',
     },
   ]
 
