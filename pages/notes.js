@@ -21,8 +21,8 @@ export async function getStaticProps() {
   ]
 
   const featuredNotes = [
-    getPostBySlug('why-i-switched-to-sw-engineering', featuredParams),
-    getPostBySlug('cs-curriculum', featuredParams),
+    getPostBySlug('soft-skills', featuredParams, 'note'),   
+    getPostBySlug('navalmanack', featuredParams),
   ]
 
   return {
@@ -30,7 +30,7 @@ export async function getStaticProps() {
       title: 'Notes // Dylan Reid',
       tagline: 'Breakdowns. Ratings. Summaries.',
       image: '/static/images/articles-bw.jpg',
-      primaryColor: 'blue',
+      primaryColor: 'red',
       secondaryColor: 'orange',
       featuredNotes,
       allNotes,

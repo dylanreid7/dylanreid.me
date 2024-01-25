@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 import ShortcutHome from '../components/ShortcutHome'
 import { PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
-import { getPersonJsonLd } from '../lib/json-ld'
 
 export async function getStaticProps() {
   return {

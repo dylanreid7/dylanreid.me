@@ -14,7 +14,7 @@ export async function getStaticProps() {
     description:
       "Dylan Reid is a software engineer from Austin, TX. He works primarily as a frontend engineer, specializing in Angular development. He is a proud husband, avid pickleball player, lover of mexican food, and a dog dad.",
     tagline: 'Learn. Grow. Lead.',
-    image: '/static/images/about-bw.jpg',
+    image: '/static/img/dylan.jpg',
     primaryColor: 'pink',
     secondaryColor: 'purple',
   }
@@ -34,7 +34,7 @@ function About(props) {
         <Section>
           <Image
             alt="Dylan"
-            src="/static/images/zeno-bw.jpg"
+            src="/static/img/dylan.jpg"
             width="336"
             height="336"
             placeholder="blur"

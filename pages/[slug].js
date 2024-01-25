@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { ArticleJsonLd } from 'next-seo'
 import Blogpost from '../layouts/Blogpost'
 import ErrorMessage from '../components/ErrorMessage'
-import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
+import { getPostBySlug, getAllNotes, getAllPosts, convertMarkdownToHtml } from '../lib/blog'
 
 function Post(props) {
   if (props.errorCode) {
@@ -86,7 +86,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(['slug'])
+  const posts = getAllPosts(['slug']).concat(getAllNotes(['slug']))
 
   return {
     paths: posts.map(post => {

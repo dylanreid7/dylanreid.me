@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Dracula PRO', 'Clipboard.js', 'Resend', 'React Email']
+    const featured = ['Sorting Algorithm Visualizer', 'Ethereum: NFT Subscriptions', 'Common Good: Full Stack App for Donations']
 
     return items
       .map(item => {
