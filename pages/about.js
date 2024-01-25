@@ -33,7 +33,7 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
+            alt="Dylan"
             src="/static/images/zeno-bw.jpg"
             width="336"
             height="336"

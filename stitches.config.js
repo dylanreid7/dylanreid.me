@@ -111,7 +111,6 @@ const globalStyles = globalCss({
   },
   img: {
     borderRadius: '8px',
-    minWidth: '100%',
     maxWidth: '100%',
   },
   p: {

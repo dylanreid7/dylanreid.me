@@ -20,7 +20,7 @@ import aboutIcon from '../public/static/icons/about.json'
 import homeIcon from '../public/static/icons/home.json'
 import articlesIcon from '../public/static/icons/articles.json'
 import projectsIcon from '../public/static/icons/projects.json'
-import talksIcon from '../public/static/icons/talks.json'
+import notesIcon from '../public/static/icons/notes.json'
 
 export default function CommandBar(props) {
   const copyLinkRef = useRef()
@@ -113,7 +113,7 @@ export default function CommandBar(props) {
       keywords: 'go-notes',
       section: 'Go To',
       perform: () => router.push('/notes'),
-      icon: <Lottie lottieRef={notesRef} style={iconSize} animationData={talksIcon} loop={false} autoplay={false} />,
+      icon: <Lottie lottieRef={notesRef} style={iconSize} animationData={notesIcon} loop={false} autoplay={false} />,
     },
   ]
 
