@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
+  const description = `I love learning about new technologies.  I believe the best way to learn something new is to build a project using that information.  While 95+% of my development time is spent on work projects, I try to set aside personal time to build side projects. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites applications that I built.`
 
   return (
     <>
@@ -73,8 +73,8 @@ function Projects(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://dylanreid.me/projects" property="og:url" />
-        <meta content={`https://dylanreid.me${image}`} property="og:image" />
+        <meta content="https://dylanreid.io/projects" property="og:url" />
+        <meta content={`https://dylanreid.io${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

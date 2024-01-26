@@ -1,4 +1,4 @@
-# dylanreid.me
+# dylanreid.io
 
 > My personal website <3
 
@@ -18,13 +18,13 @@
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/dylanreid7/dylanreid.me.git
+$ git clone https://github.com/dylanreid7/dylanreid.io.git
 ```
 
 2. Then go to the project's folder:
 
 ```sh
-cd dylanreid.me
+cd dylanreid.io
 ```
 
 3. Install all dependencies:

@@ -11,11 +11,11 @@ function Post(props) {
 
   const title = `${props.title} // Dylan Reid`
   const description = props.description || ''
-  const url = `https://dylanreid.me/${props.slug}`
+  const url = `https://dylanreid.io/${props.slug}`
   const date = new Date(props.date).toISOString()
   const image = props.image
-    ? `https://dylanreid.me${props.image}`
-    : 'https://dylanreid.me/static/images/home-opt.jpg'
+    ? `https://dylanreid.io${props.image}`
+    : 'https://dylanreid.io/static/images/home-opt.jpg'
 
   return (
     <>
@@ -64,7 +64,7 @@ export async function getStaticProps({ params }) {
     const content = await convertMarkdownToHtml(post.content || '')
 
     const isProd = process.env.NODE_ENV === 'production'
-    const base = isProd ? 'https://dylanreid.me' : 'http://localhost:3000'
+    const base = isProd ? 'https://dylanreid.io' : 'http://localhost:3000'
 
     if (isProd) {
       const viewsReq = await fetch(`${base}/api/views/${params.slug}`)

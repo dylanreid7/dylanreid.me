@@ -112,8 +112,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://dylanreid.me/about" property="og:url" />
-        <meta content={`https://dylanreid.me${image}`} property="og:image" />
+        <meta content="https://dylanreid.io/about" property="og:url" />
+        <meta content={`https://dylanreid.io${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}

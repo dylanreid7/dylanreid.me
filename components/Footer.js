@@ -23,6 +23,11 @@ export default function Footer() {
       url: 'https://linkedin.com/in/dylan-reid',
       icon: 'ri-linkedin-line',
     },
+    {
+      title: 'resume',
+      url: 'https://drive.google.com/file/d/1cWbJc0hsnVTlej4msAMSwKE-kXcdBKel/view?usp=sharing',
+      icon: 'ri-file-line'
+    }
   ]
 
   const renderAnchor = (link, index) => {
