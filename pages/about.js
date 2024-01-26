@@ -52,7 +52,7 @@ function About(props) {
             <strong>Hey, I'm Dylan Reid</strong>
           </Paragraph>
           <Paragraph>
-            I live in Austin, TX, where I work as a software engineer. I work primarily as a frontend engineer, specializing in Angular development. I a proud husband, avid pickleball player, lover of mexican food, and a dog dad.
+            I live in Austin, TX, where I work as a software engineer. I work primarily as a frontend engineer, specializing in Angular development. I am a proud husband, avid pickleball player, lover of mexican food, and a dog dad.
           </Paragraph>
         </Section>
       </Container>
@@ -117,7 +117,7 @@ function About(props) {
       </Head>
 
       {renderIntro()}
-      
+
       <div>
         <Paragraph>
           I went to college at Washington University in St. Louis, where I earned a BS and MS in mechanical engineering. I spent 6 years working in the aerospace and automotive engineering fields. I had the opportunity to work on some cool things, like Boeing F-15s, semi-truck exhaust pipes (ok, that those weren’t so cool), and spent 4 years at Insitu – a Boeing subsidiary that makes military surveillance UAVs.
@@ -135,9 +135,9 @@ function About(props) {
           <strong>Say Hi!</strong>
         </Paragraph>
         <Paragraph>
-          If you would like to reach out, you can reach me via email at dylanreid7@gmail.com. Say hi, I’d love to hear from you 🙂
+          If you would like to reach out, you can visit my <a href="/contact">contact page</a>. Say hi, I’d love to hear from you 🙂
         </Paragraph>
-        </div>
+      </div>
 
       <h2>Career</h2>
       {renderAll()}
