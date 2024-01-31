@@ -120,7 +120,7 @@ function About(props) {
 
       <div>
         <Paragraph>
-          I went to college at Washington University in St. Louis, where I earned a BS and MS in mechanical engineering. I spent 6 years working in the aerospace and automotive engineering fields. I had the opportunity to work on some cool things, like Boeing F-15s, semi-truck exhaust pipes (ok, that those weren’t so cool), and spent 4 years at Insitu – a Boeing subsidiary that makes military surveillance UAVs.
+          I went to college at Washington University in St. Louis, where I earned a BS and MS in mechanical engineering. I spent 6 years working in the aerospace and automotive engineering fields. I had the opportunity to work on some cool things, like Boeing F-15s, semi-truck exhaust pipes (ok, those weren’t so cool), and spent 4 years at Insitu – a Boeing subsidiary that makes military surveillance UAVs.
         </Paragraph>
         <Paragraph>
           As I was working in mechanical engineering, I started wondering if that was really the right field for me. I began looking at different career options. That’s when I decided to make the switch into software engineering. You can check out this post for my reasoning for moving into the software industry.
