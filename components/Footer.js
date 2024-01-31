@@ -25,7 +25,7 @@ export default function Footer() {
     },
     {
       title: 'resume',
-      url: 'https://drive.google.com/file/d/1AYkC21wsME5kuQVt0XUlzklFNKNTW3Hy/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/15fQkksXm-9uPCqjMyE8AWf2PUJOrio4R/view?usp=sharing',
       icon: 'ri-file-line'
     }
   ]
