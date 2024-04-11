@@ -28,7 +28,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Notes // Dylan Reid',
-      tagline: 'Breakdowns. Ratings. Summaries.',
+      tagline: 'Breakdowns. Summaries. Reviews.',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'red',
       secondaryColor: 'orange',
