@@ -134,6 +134,21 @@ const globalStyles = globalCss({
     textDecoration: 'none',
     transition: 'opacity $duration ease-in-out',
   },
+  '.toc': {
+    padding: '30px 40px',
+    marginBottom: '70px',
+    border: '1px solid #ddd',
+    borderRadius: '5px',
+    background: '#232323',
+    maxWidth: '400px',
+    'h2, a': {
+      fontFamily: 'Permanent Marker, cursive',
+      margin: '0px',
+    },
+    'ol': {
+      padding: '0px',
+    }
+  },
   'a:hover, a:focus': {
     opacity: '0.8',
   },
@@ -180,6 +195,12 @@ const globalStyles = globalCss({
       fontWeight: 'normal',
       fontStyle: 'italic',
     },
+    {
+      fontFamily: 'Permanent Marker',
+      src: `url("https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cf5b6jlg.woff2") format("woff2")`,
+      fontWeight: 'normal',
+      fontStyle: 'normal',
+    }
   ],
 })
 

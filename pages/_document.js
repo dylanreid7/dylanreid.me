@@ -31,6 +31,8 @@ export default class extends Document {
             sizes="any"
             // type="image/svg+xml"
           />
+          {/* <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&amp;family=Open+Sans:wght@400;700&amp;family=Permanent+Marker&amp;family=Secular+One&amp;display=swap" rel="stylesheet"></link> */}
+          <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"/>
 
           <script
             async

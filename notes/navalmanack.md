@@ -8,26 +8,38 @@ date: "2024-01-25"
 **Summary**: Naval Ravikant is the most brilliant thinker I’ve stumbled upon. Any time he is a guest on a podcast, writes a tweet, or puts out any thoughts, I pay attention. This book is a compilation of his most brilliant thoughts, packaged together. Naval’s thoughts on building wealth and developing happiness are must-read.
 
 **Rating**: 10/10
+<div class="toc">
+<h2>Big Ideas</h2>
 
-## 5 Big Ideas
+1. [Seek leverage](#idea-1)
+2. [Positive sum games](#idea-2) 
+3. [Happiness Equation](#idea-3)
+4. [Become a super learner](#idea-4)
+5. [Happiness is a skill](#idea-5)
+</div>
 
+<a id="idea-1"></a>
 ## 1. Seek leverage
 If you want to become wealthy, you should seek to increase leverage. That means that you should increase your ability to deploy capital via labor, money, code, or media. Your inputs will have a disproportionate effect and you will be rewarded accordingly.
 
+<a id="idea-2"></a>
 ## 2. Play positive sum games
 
 Zero sum games are games where there is a winner and a loser. In positive games, we can both win. If multiple people are working collaboratively at a company, they each have equity, and they increase that company’s value, the size of the pie increases and everyone wins.
 
+<a id="idea-3"></a>
 ## 3. Happiness is reality minus expectations
 
 Seek to control your expectations. You have limited control over your reality. As you can learn to have a less fixed view of how things “should be,” you find that you are happier due to the fact that there isn’t a reality-expectation mismatch issue.
 
+<a id="idea-4"></a>
 ## 4. Become a super-learner
 
 Historically, the model for learning in your careers was that you should go to college for 4 years, then use that knowledge for a 40 year career. Now, things move fast. You need to be able to get up to speed rapidly on a new subject and then use that knowledge effectively to learn. For instance, you should be able to master a new field in 9 months and then use that knowledge for 3-4 years.
 
 Read whatever interests you. It is more important that you are reading something that you’ll actually read than that you finish every book that you read cover-to-cover. Have no qualms about dropping a book or just reading a chapter. Build up a tree of knowledge and don’t let any book in the library scare you.
 
+<a id="idea-5"></a>
 ## 5. Happiness is a skill
 
 Happiness is not a fixed trait. People assume that you are either a happy person or you aren’t. There are tons of ways that you can increase your happiness. Meditation, journaling, healthy habits, watching your thoughts, etc. are all forms of becoming a happier version of yourself.

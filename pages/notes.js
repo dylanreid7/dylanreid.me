@@ -73,7 +73,7 @@ function Notes(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allNotes.length} notes</strong> I wrote. I write up book notes as well as notes on courses. I tend to read technical books and personal development books.`
+  const description = `Here you can find the <strong>${props.allNotes.length} notes</strong> I've written. I write up book notes as well as notes on courses. I tend to read technical books and personal development books. At the moment, I have an enormous backlog of books I've already read, but haven't created notes for yet, so I'll be working through those.`
 
   return (
     <>

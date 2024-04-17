@@ -8,25 +8,37 @@ date: "2024-01-25"
 **Summary**: 4000 Weeks is a super unique book on time management. It’s less about getting things done and becoming a productive superhuman. It’s more about accepting your limits, focusing on the things that really matter in life, and letting go of those things that don’t.
 
 **Rating**: 9/10
+<div class="toc">
+<h2>Big Ideas</h2>
 
-## 5 Big Ideas:
+1. [Relationship with time](#idea-1)
+2. [Accept limitations](#idea-2) 
+3. [Pay yourself first](#idea-3)
+4. [Work expands to fill time](#idea-4)
+5. [Face reality](#idea-5)
+</div>
 
+<a id="idea-1"></a>
 ## 1. Our distorted relationship with time
 
 Most of us run through our days using time as a means for productivity. We are focused on getting things done with a belief that it will make our future better. We try to pack in more things and consistently tell ourself the lie that after we get certain things done, we will then have peace and happiness. Only what happens then? More tasks, more work, more responsibilities.
 
+<a id="idea-2"></a>
 ## 2. Accept limitations
 
 Part of this productive, future-focused mindset is a belief that if we just learn how to be more productive or develop our skills further, we will eventually be a super-achiever who can do everything and be home at 5. When we believe this lie, we are denying reality. In reality, we have limitations. We will never knock off all of the tasks on our to-do lists. There will always be more to do.
 
+<a id="idea-3"></a>
 ## 3. Pay yourself first
 
 People often spend all of their time thinking about how they’ll get things done, then all leisure activities or family time fits into whatever time is left over. Pay yourself first. This means that you should fill in your schedule with the big rocks – the important life activities that really matter – then fill in the remaining space with work activities.
 
+<a id="idea-4"></a>
 ## 4. Work expands to fill time
 
 Back when humans worked on farms and had to generate all of their food alone, working 8 hours a day made sense. It was the only way to get the necessary amount of food on the table. Once powerful new tools for expanding productivity became possible, we thought this would free humanity of the need to work so much. Maybe we’d only need to work 4 hours per day in order to meet our necessities. Of course, this didn’t happen. As more and more powerful tools came about, we didn’t free up any time. We were simply able to produce more. Then, our lifestyle expectations shifted, so that living with more abundance became the norm. While new tools could have allowed us to live the same lifestyle with less work, this was never a reality.
 
+<a id="idea-5"></a>
 ## 5. Stop trying new hacks, instead face reality
 
 Whenever you find yourself overwhelmed by all that there is to do, there’s a tendency to try to solve this with new hacks, strategies, or tactics. Instead, what if you just accepted that there will always be a lot of tasks, and that can indeed be overwhelming. We spend so much time running from that fear of overwhelm and uncertainty and trying to solve it in the outside world. Paradoxically, accepting that there will always be more to get done than there is time in the day can be liberating.

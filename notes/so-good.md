@@ -1,6 +1,6 @@
 ---
-title: So Good They Cant Ignore You by Cal Newport
-description: 'So Good They Cant Ignore You by Cal Newport.'
+title: So Good They Can't Ignore You by Cal Newport
+description: "So Good They Can't Ignore You by Cal Newport."
 image: /static/img/notes/so-good.jpeg
 date: "2024-04-10"
 ---
@@ -10,15 +10,17 @@ date: "2024-04-10"
 In So Good They Can’t Ignore You, Cal breaks down what makes a great career.  He found that the prevailing hypothesis is the “Passion Hypothesis”, which states that one should follow their passion to find work they love.  Cal refutes this theory, stating instead that one should focus on developing rare and valuable skills, in order to develop a career that is rare and valuable.  In other words, you should focus on becoming “So Good They Can’t Ignore You.”
 
 **Rating**: 9/10
+<div class="toc">
+<h2>Big Ideas</h2>
 
-## 5 Big Ideas
+1. [Passion vs. Craftsman Mindset](#idea-1)
+2. [Components of Great Work](#idea-2) 
+3. [Career Capital](#idea-3)
+4. [Deliberate Practice](#idea-4)
+5. [Mission](#idea-5)
+</div>
 
-1. Passion vs. Craftsman Mindset
-2. Components of Great Work 
-3. Career Capital
-4. How to become so good they can’t ignore you?  Deliberate practice
-5. Mission
-
+<a id="idea-1"></a>
 ## 1. Passion vs. Craftsman Mindset
 
 The passion hypothesis is that “the key to occupational happiness is to fist figure out what  you’re passionate about and then find a job that matches this passion.”  This hypothesis was popularized by advice like that given by Steve Job’s in his Stanford commencement speech.  Steve stated “you’ve got to find what you love…[T]he only way to do great work is to love what you do.  If you haven’t found it yet, keep looking, and don’t settle.”
@@ -37,6 +39,7 @@ Steve Martin has a successful and gratifying career in comedy.  Many struggling 
 
 The craftsman mindset, as opposed to the passion mindset, suggests that you should focus on doing great work, rather than on finding great work.
 
+<a id="idea-2"></a>
 ## 2. Components of Great Work
 
 According to Daniel Pink’s work, the science of motivation is unequilocal.  In order to feel intrinsically motivated, one needs to find work with:
@@ -53,12 +56,14 @@ The traits that define great work, according to Newport, are related:
 
 Note that these factors are rare in any job.  Entry level jobs generally don’t hand out these attributes.
 
+<a id="idea-3"></a>
 ## 3. Career Capital
 
 The traits that define great work are rare and valuable.  Supply and demand says that if you want these traits you need rare and valuable skills to offer in return.  Think of these rare and valuable skills you can offer as your career capital.
 
 “Basic economic theory tells us that if you want something that’s both rare and valuable, you need something rare and valuable to offer in return— this is Supply and Demand 101.  It follows that if you want a great job, you need something of great value to offer in return.”
 
+<a id="idea-4"></a>
 ## 4. Deliberate Practice
 
 So, how do you become So Good They Can’t Ignore You, in order to develop significant career capital?  Newport states that you must engage in deliberate practice.
@@ -76,6 +81,7 @@ The core elements of deliberate practice are:
 
 Obviously, not many white collar professionals regularly engage in deliberate practice.  If you do, you’ll have a huge leg up.  Newport cites Alex Berger, a television writer, seeking out relentless feedback on scripts, as well as Mike Jackson, a clean energy VC, who obsessively tracks his time.  
 
+<a id="idea-5"></a>
 ## 5. Control
 
 Once you have developed career capital, you should invest it in gaining more control over your working life.  With enough career capital, at the point where your employer feels they would be seriously missing out if they lost you, you should exchange this capital for more control.  You can ask to work remotely, work fewer hours, work with different people, etc. 

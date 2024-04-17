@@ -10,29 +10,43 @@ date: "2024-01-26"
 **Rating**: 10/10
 
 ## 5 Big Ideas:
+<div class="toc">
+<h2>Big Ideas</h2>
 
-## 1. First principles
+1. [First Principles](#idea-1)
+2. [Your Brain is Software](#idea-2) 
+3. [Cooks vs. Chefs](#idea-3)
+4. [Fear and Risk](#idea-4)
+5. [How to Achieve Your Goals](#idea-5)
+</div>
+
+<a id="idea-1"></a>
+## 1. First Principles
 
 First principles are the key truths underlying a particular domain. They are often the building blocks of knowledge. This is a physics concept. Physicists are known for using first principles (e.g. conservation of energy) and deriving powerful conclusions from those. Elon believes that you should treat knowledge as a semantic tree. Understand the key building blocks (i.e. the trunk) before you connect the branches, twigs, and leaves. Otherwise, they’ll have nothing to hold onto.
 
+<a id="idea-2"></a>
 ## 2. Your brain is software (and you should optimize it!)
 
 Elon views humans as computers. Our physical hardware (brain and body) is equivalent to a computer’s hardware. Software is the information running on that hardware. “His software is the way he learns to think, his value system, his habits, his personality. And learning, for Musk, is simply the process of ‘downloading data and algorithms into your brain.'”
 
 One should take a look at their software and decide where it ought to be revised or updated. What views, beliefs, or values would you like to update? What information would you like to download into your software?
 
+<a id="idea-3"></a>
 ## 3. Cooks vs. chefs
 
 Cooks are simply those who follow a recipe. They are great at it and that is a very useful skill to have. However, to do revolutionary things, you need to be a chef. Chefs make the recipes. They look at the world and envision something that doesn’t exist yet. Then, using their knowledge of first principles, they try a solution that might work. Chefs test and tinker with things until they develop an innovative solution.
 
 Many people believe that the only way things can be is the way that things already are. They also don’t question things too much. If everyone around them believes that a certain thing is true, they accept it as fact. This is a cook mentality. Chefs question everything. They wonder whether things are really true and try to reason it out on their own, rather than simply following the herd. When they see something being done a particular way, they wonder if it couldn’t be done differently or better.
 
+<a id="idea-4"></a>
 ## 4. Fear and risk
 
 “When I was a little kid, I was really scared of the dark. But then I came to understand, dark just means the absence of photons in the visible wavelength—400 to 700 nanometers. Then I thought, well it’s really silly to be afraid of a lack of photons. Then I wasn’t afraid of the dark anymore after that.” -Elon Musk
 
 Most of us don’t view fear accurately. We fear things that aren’t actually dangerous. Elon likes to look at fears very analytically. Darkness, for instance, is nothing to be afraid of. It is simply fear of a lack of photons. Similarly, starting a company can feel incredibly scary and risky. But what is truly the worst-case scenario? That you would be eating ramen and sleeping on your parents couch? That doesn’t sound so scary (or maybe it does lol).
 
+<a id="idea-5"></a>
 ## 5. How to achieve your goals
 
 <img src="/static/img/notes/elon-wbw-goals.jpeg">
