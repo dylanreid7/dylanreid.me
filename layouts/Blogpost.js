@@ -2,7 +2,6 @@ import { styled } from '../stitches.config'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import BlogDate from '../components/BlogDate'
-import BlogViews from '../components/BlogViews'
 import { Post, PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
 
@@ -18,7 +17,6 @@ export default function Blogpost({ children }) {
             <PostHeaderTitle>{title}</PostHeaderTitle>
             <PostHeaderSubtitle>
               <BlogDate dateString={date} />
-              <BlogViews views={views} />
             </PostHeaderSubtitle>
           </PostHeader>
         )}
@@ -43,7 +41,6 @@ export default function Blogpost({ children }) {
                 <PostContentTitle>{title}</PostContentTitle>
                 <PostContentSubtitle>
                   <BlogDate dateString={date} />
-                  <BlogViews views={views} />
                 </PostContentSubtitle>
               </div>
             )}
@@ -68,14 +65,12 @@ function Main(props) {
 const PostHeader = styled('div', {
   backgroundColor: '#141618',
   minHeight: '200px',
-  // height: 'vh',
   width: '100%',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   position: 'relative',
   flexDirection: 'column',
-  // zIndex: -1,
 })
 
 export const PostTitle = styled('h1', {
