@@ -73,7 +73,7 @@ function Articles(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote.`
+  const description = `Here you can find all <strong>${props.allPosts.length} articles</strong> I\'ve written.`
 
   return (
     <>

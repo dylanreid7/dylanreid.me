@@ -6,6 +6,7 @@ import FeaturedProject from '../components/FeaturedProject'
 import { FeaturedProjects } from '../components/FeaturedProjects'
 import stripHtml from '../lib/strip-html'
 import items from '../data/projects'
+import { styled } from '../stitches.config'
 
 export async function getStaticProps() {
   const meta = {
@@ -95,12 +96,27 @@ function ProjectItem(props) {
 
   return (
     <li>
+      { project.codeUrl ? 
+      <>
+        <Anchor href={project.url} target="_blank">
+          {project.title}
+        </Anchor>
+        <Anchor href={project.codeUrl} target="_blank">
+          (Source Code)
+        </Anchor>
+      </>
+      :
       <a href={project.url} target="_blank">
         {project.title}
       </a>
+      }
     </li>
   )
 }
+
+const Anchor = styled('a', {
+  marginRight: '4px',
+})
 
 Projects.Layout = Base
 

@@ -5,7 +5,8 @@ const items = [
       {
         title: 'Sorting Algorithm Visualizer',
         description: 'An Angular application that allows you to visualize the way that different sorting algorithms work.',
-        url: 'https://github.com/dylanreid7/sorting-visualizer',
+        url: 'https://sorting-visualizer-65669.web.app/',
+        codeUrl: 'https://github.com/dylanreid7/sorting-visualizer',
         icon: 'sorting',
       },
     ],

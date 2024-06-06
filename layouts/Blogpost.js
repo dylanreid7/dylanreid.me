@@ -16,15 +16,18 @@ export default function Blogpost({ children }) {
         {image && (
           <PostHeader>
             <PostHeaderTitle>{title}</PostHeaderTitle>
-            {/* <PostImage
-              css={image ? { backgroundImage: `url(${image})` } : {}}
-            /> */}
             <PostHeaderSubtitle>
               <BlogDate dateString={date} />
               <BlogViews views={views} />
             </PostHeaderSubtitle>
           </PostHeader>
         )}
+        <PostImage >
+          <ImageContainer>
+            <img src={image} />
+          </ImageContainer>
+        </PostImage>
+        
         <PostContent
           css={{
             '& ::selection': {
@@ -64,19 +67,21 @@ function Main(props) {
 
 const PostHeader = styled('div', {
   backgroundColor: '#141618',
-  minHeight: '600px',
-  height: '100vh',
+  minHeight: '200px',
+  // height: 'vh',
   width: '100%',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   position: 'relative',
   flexDirection: 'column',
-  zIndex: -1,
+  // zIndex: -1,
 })
 
 export const PostTitle = styled('h1', {
   textAlign: 'center',
+  paddingTop: '24px',
+  paddingBottom: '24px',
   '@bp2': {
     fontSize: '72px',
     lineHeight: '90px',
@@ -91,7 +96,7 @@ export const PostHeaderTitle = styled(PostTitle, {
   zIndex: 3,
   fontSize: '36px',
   lineHeight: '48px',
-  padding: '0 12px',
+  padding: '24px 12px',
   '@bp2': {
     fontSize: '60px',
     lineHeight: '80px',
@@ -118,7 +123,6 @@ const PostSubtitle = styled('h2', {
 })
 
 const PostHeaderSubtitle = styled(PostSubtitle, {
-  position: 'absolute',
   bottom: '20px',
   zIndex: 2,
   margin: '0',
@@ -131,37 +135,15 @@ const PostContentSubtitle = styled(PostSubtitle, {
   margin: '0 0 60px',
 })
 
+
 const PostImage = styled('div', {
-  backgroundColor: '#141618',
-  backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
-  backgroundSize: 'cover',
-  position: 'fixed',
-  opacity: 0.4,
-  width: '100%',
-  height: '100%',
-  top: '0',
-  left: '0',
-  zIndex: 1,
-  willChange: 'transform',
-
-  '&::after': {
-    content: '""',
-    backgroundImage: `linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.8) 0,
-      transparent 50%,
-      transparent 90%,
-      rgba(0, 0, 0, 0.8)
-    )`,
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    top: '0',
-    left: '0',
-    zIndex: 2,
-    willChange: 'transform',
-  },
-
-  '@bp4': { position: 'absolute' },
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  margin: '24px',
 })
+
+const ImageContainer = styled('div', {
+  maxWidth: '300px',
+})
+
