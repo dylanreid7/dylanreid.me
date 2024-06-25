@@ -7,7 +7,7 @@ date: "2024-05-08"
 
 **Summary**: Cal Newport is the author of one of my favorite career books, [“So Good They Can’t Ignore You.”](/so-good)  In it, Cal argues that people often make the mistake of endlessly looking for a job or field that they’re “passionate” about, when instead they should simply focus on becoming great at what they do.  Once one becomes “so good they can’t ignore you” at their profession, they will be able to exchange those tremendous skills for a great job with great perks.  Plus, they will feel mastery, autonomy, and impact.
 
-After writing “So Good They Can’t Ignore You,” Cal was repeatedly asked “ok great, but HOW do I become great?”  He wrote “Deep Work” to answer this question.  
+After writing “So Good They Can’t Ignore You,” Cal was repeatedly asked “ok great, but HOW do I become great?”  He wrote “Deep Work” to answer this question.  The book offers a fantastic deep dive into how and why you should prioritize focus in order to thrive in the world of knowledge work.  
 
 **Rating**: 9/10
 <div class="toc">
@@ -18,7 +18,7 @@ After writing “So Good They Can’t Ignore You,” Cal was repeatedly asked �
 3. [Myelin](#idea-3)
 4. [Attention Residue](#idea-4)
 5. [The Power of Boredom](#idea-5)
-6. [Bonus: Personal Techniques for Deep Work](#bonus)</p>
+6. [Bonus: Personal Techniques for Deep Work](#bonus)
 
 </div>
 

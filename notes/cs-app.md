@@ -22,7 +22,7 @@ Note that the guide I've been following to execute a personal CS curriculum, [te
 3. [Machine-Level Representation of Programs](#idea-3)
 4. [Processor Architecture](#idea-4)
 5. [Optimizing Program Performance](#idea-5)
-6. [The Memory Heirarchy](#idea-6)</p>
+6. [The Memory Heirarchy](#idea-6)
 
 </div>
 
@@ -64,29 +64,20 @@ By studying the actual number representations, we can understand the ranges
 of values that can be represented and the properties of the different arithmetic operations. This understanding is critical to writing programs that work correctly over the full range of numeric values and that are portable across different combi- nations of machine, operating system, and compiler. As we will describe, a number of computer security vulnerabilities have arisen due to some of the subtleties of computer arithmetic.
 
 Rather than accessing individual bits in memory, most computers use blocks
-of eight bits, or *bytes*, as the smallest addressable unit of memory. A machine-
-level program views memory as a very large array of bytes, referred to as *virtual
-memory*. Every byte of memory is identified by a unique number, known as its
-*address*, and the set of all possible addresses is known as the *virtual address space*.
+of eight bits, or *bytes*, as the smallest addressable unit of memory. A machine-level program views memory as a very large array of bytes, referred to as *virtual memory*. Every byte of memory is identified by a unique number, known as its *address*, and the set of all possible addresses is known as the *virtual address space*.
 
 	
 **Hexidecimal notation:**
 
 <img src="/static/img/notes/cs-app/cs-app-2-1.png">
 
-Word size: Every computer has a *word size*, indicating the nominal size of integer and pointer
-data. Since a virtual address is encoded by such a word, the most important system
-parameter determined by the word size is the maximum size of the virtual address
-space. That is, for a machine with a w-bit word size, the virtual addresses can range
-from 0 to 2w − 1, giving the program access to at most 2w bytes.
+Word size: Every computer has a *word size*, indicating the nominal size of integer and pointer data. Since a virtual address is encoded by such a word, the most important system parameter determined by the word size is the maximum size of the virtual address space. That is, for a machine with a w-bit word size, the virtual addresses can range from 0 to 2w − 1, giving the program access to at most 2w bytes.
 
 	
 
 <img src="/static/img/notes/cs-app/cs-app-2-2.png">
 
-**Byte ordering:** The convention where the least signifi-
-cant byte comes first is referred to as *little endian*. This convention is followed
-by most Intel-compatible machines. The convention where the most significant byte comes first is referred to as *big endian*.
+**Byte ordering:** The convention where the least significant byte comes first is referred to as *little endian*. This convention is followed by most Intel-compatible machines. The convention where the most significant byte comes first is referred to as *big endian*.
 
 <img src="/static/img/notes/cs-app/cs-app-2-3.png">
 
@@ -132,26 +123,16 @@ through a series of stages, based on the rules of the programming language, the
 instruction set of the target machine, and the conventions followed by the operat-
 ing system. The gcc C compiler generates its output in the form of *assembly code*,
 a textual representation of the machine code giving the individual instructions in
-the program. gcc then invokes both an *assembler* and a *linker* to generate the exe-
-cutable machine code from the assembly code. In this chapter, we will take a close
-look at machine code and its human-readable representation as assembly code.
+the program. gcc then invokes both an *assembler* and a *linker* to generate the executable machine code from the assembly code. In this chapter, we will take a close look at machine code and its human-readable representation as assembly code.
 
 	
-So why should we spend our time learning machine code? Even though com- pilers do most of the work in generating assembly code, being able to read and understand it is an important skill for serious programmers. By invoking the com- piler with appropriate command-line parameters, the compiler will generate a file showing its output in assembly-code form. By reading this code, we can under- stand the optimization capabilities of the compiler and analyze the underlying inefficiencies in the code.
+So why should we spend our time learning machine code? Even though compilers do most of the work in generating assembly code, being able to read and understand it is an important skill for serious programmers. By invoking the com- piler with appropriate command-line parameters, the compiler will generate a file showing its output in assembly-code form. By reading this code, we can under- stand the optimization capabilities of the compiler and analyze the underlying inefficiencies in the code.
 
 Whereas a 32-bit machine can only make use of around 4 gigabytes (232 bytes) of random-access memory, current 64-bit machines can use up to 256 terabytes (248 bytes).
 
-The Intel processor line, colloquially referred to as *x86*, has followed a long, evo-
-lutionary development. It started with one of the first single-chip, 16-bit micropro-
-cessors, where many compromises had to be made due to the limited capabilities
-of integrated circuit technology at the time. Since then, it has grown to take ad-
-vantage of technology improvements as well as to satisfy the demands for higher
-performance and for supporting more advanced operating systems.
+The Intel processor line, colloquially referred to as *x86*, has followed a long, evolutionary development. It started with one of the first single-chip, 16-bit microprocessors, where many compromises had to be made due to the limited capabilities of integrated circuit technology at the time. Since then, it has grown to take advantage of technology improvements as well as to satisfy the demands for higher performance and for supporting more advanced operating systems.
 
-Intel has
-had several names for their processor line, including *IA32*, for “Intel Architecture
-32-bit,” and most recently *Intel64*, the 64-bit extension to IA32, which we will refer
-to as *x86-64*.	
+Intel has had several names for their processor line, including *IA32*, for “Intel Architecture 32-bit,” and most recently *Intel64*, the 64-bit extension to IA32, which we will refer to as *x86-64*.	
 
 <img src="/static/img/notes/cs-app/cs-app-3-1.png">
 
@@ -164,11 +145,7 @@ specified with #define declarations. Second, the *compiler* generates assembly-
 code versions of the two source files having names p1.s and p2.s. Next, the
 *assembler* converts the assembly code into binary *object-code* files p1.o and p2.o.
 Object code is one form of machine code—it contains binary representations of all
-of the instructions, but the addresses of global values are not yet filled in. Finally,
-the *linker* merges these two object-code files along with code implementing library
-functions (e.g., printf) and generates the final executable code file p. Executable
-code is the second form of machine code we will consider—it is the exact form
-of code that is executed by the processor.
+of the instructions, but the addresses of global values are not yet filled in. Finally, the *linker* merges these two object-code files along with code implementing library functions (e.g., printf) and generates the final executable code file p. Executable code is the second form of machine code we will consider—it is the exact form of code that is executed by the processor.
 
 	
 
